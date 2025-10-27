@@ -17,10 +17,10 @@ export default function Welcome({
   return (
     <AuthenticatedLayout>
       <Head title="Welcome" />
-      <div className="bg-gray-50 text-black/50 dark:bg-black dark:text-white/50">
+      <div className=" text-black/50 dark:text-white/50">
         <div className="carousel w-full">
           <div id="item1" className="carousel-item w-full">
-            <div className="hero bg-base-200 h-[50dvh]">
+            <div className="hero bg-slate-100 dark:bg-gray-800 h-[50dvh]">
               <div className="hero-content flex-col lg:flex-row">
                 <img
                   src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
@@ -39,7 +39,7 @@ export default function Welcome({
             </div>
           </div>
           <div id="item2" className="carousel-item w-full">
-            <div className="hero bg-base-200 h-[50dvh]">
+            <div className="hero bg-slate-100 dark:bg-gray-800 h-[50dvh]">
               <div className="hero-content flex-col lg:flex-row">
                 <img
                   src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
@@ -58,7 +58,7 @@ export default function Welcome({
             </div>
           </div>
           <div id="item3" className="carousel-item w-full">
-            <div className="hero bg-base-200 h-[50dvh]">
+            <div className="hero bg-slate-100 dark:bg-gray-800 h-[50dvh]">
               <div className="hero-content flex-col lg:flex-row">
                 <img
                   src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
